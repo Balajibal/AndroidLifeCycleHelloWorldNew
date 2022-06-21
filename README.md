@@ -1,6 +1,6 @@
-# AndroidLifeCycleHelloWorldNew
-# Ex.No:1 To create a HelloWorld Activity using all lifecycles methods to display messages.
-
+### EX NO : 01
+### DATE  : 
+# <p align="center"> To create a HelloWorld Activity using all lifecycles methods to display messages </p>
 
 ## AIM:
 
@@ -27,13 +27,15 @@ Step 6: Display message give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
+```
 /*
 Program to print the text “Hello World”.
-Developed by: BALAJI N
+Developed by: Balaji N
 Registeration Number : 212220230006
 */
-
-## MainActivity.java:
+```
+### MainActivity.java
+```java
 package com.example.exno1;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -47,49 +49,60 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast toast=Toast.makeText(getApplicationContext(),"OnCreate Executed",Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnCreate Executed",
+        Toast.LENGTH_LONG);
         toast.show();
     }
 
     protected void onStart(){
         super.onStart();
-        Toast toast=Toast.makeText(getApplicationContext(),"OnStart Executed",Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnStart Executed",
+        Toast.LENGTH_LONG);
         toast.show();
     }
 
     protected void onResume(){
         super.onResume();
-        Toast toast=Toast.makeText(getApplicationContext(),"OnResume Executed",Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnResume Executed",
+        Toast.LENGTH_LONG);
         toast.show();
     }
 
     protected void onPause(){
         super.onPause();
-        Toast toast=Toast.makeText(getApplicationContext(),"OnPause Executed",Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnPause Executed",
+        Toast.LENGTH_LONG);
         toast.show();
     }
 
     protected void onStop(){
         super.onStop();
-        Toast toast=Toast.makeText(getApplicationContext(),"OnStop Executed",Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnStop Executed",
+        Toast.LENGTH_LONG);
         toast.show();
     }
 
     protected void onRestart(){
         super.onRestart();
-        Toast toast=Toast.makeText(getApplicationContext(),"OnRestart Executed",Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnRestart Executed",
+        Toast.LENGTH_LONG);
         toast.show();
     }
 
     protected void onDestroy(){
         super.onDestroy();
-        Toast toast=Toast.makeText(getApplicationContext(),"OnDestroy Executed",Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(getApplicationContext(),"OnDestroy Executed",
+        Toast.LENGTH_LONG);
         toast.show();
     }
 }
-## activity_main.xml
+```
+
+### activity_main.xml
+```java
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.
+android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -106,17 +119,30 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
 
 ## OUTPUT
-![WhatsApp Image 2022-04-18 at 8 57 25 AM](https://user-images.githubusercontent.com/75234946/163749981-92c2efda-642d-4c72-aa1b-777e50944a7f.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 25 AM (1)](https://user-images.githubusercontent.com/75234946/163750006-dab755d2-55e7-4684-8350-bf1b789b8d70.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 26 AM](https://user-images.githubusercontent.com/75234946/163750032-c26d2ed0-d53b-4559-91d6-0237d6ca24db.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 26 AM (1)](https://user-images.githubusercontent.com/75234946/163750056-ab3ffebf-6142-4f4b-bbb1-469691631271.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 27 AM](https://user-images.githubusercontent.com/75234946/163750193-2e642018-e0ab-4354-92bd-0a22ed75e5b9.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 27 AM (1)](https://user-images.githubusercontent.com/75234946/163750240-970cdc6b-ca28-45cf-b37b-c94740a30bd7.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 27 AM (2)](https://user-images.githubusercontent.com/75234946/163750279-31da2613-5b52-44b5-8066-104b315eaff3.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 28 AM](https://user-images.githubusercontent.com/75234946/163750303-2bdc1610-6c1d-4bca-8c91-2e2fb0218dfd.jpeg)
-![WhatsApp Image 2022-04-18 at 8 57 28 AM (1)](https://user-images.githubusercontent.com/75234946/163750351-a38d9546-7c58-44f8-8a5e-b7245fa515cd.jpeg)
+![WhatsApp Image 2022-04-26 at 9 21 51 PM (2)](https://user-images.githubusercontent.com/75235455/168122477-135e6575-e705-434e-ac56-f1b5400a68c8.jpeg)
+
+</br>
+
+![WhatsApp Image 2022-04-26 at 9 21 51 PM (3)](https://user-images.githubusercontent.com/75235455/168122466-fe358a7f-5d44-482e-aa59-15739d88702f.jpeg)
+
+</br>
+
+![WhatsApp Image 2022-04-26 at 9 21 51 PM (1)](https://user-images.githubusercontent.com/75235455/168122482-974878e9-0ee8-434c-b44a-e9967ee1cc89.jpeg)
+![WhatsApp Image 2022-04-26 at 9 21 51 PM](https://user-images.githubusercontent.com/75235455/168122486-820a4b0c-d9ee-42d7-ad18-884ec40297cf.jpeg)
+![WhatsApp Image 2022-04-26 at 9 23 55 PM](https://user-images.githubusercontent.com/75235455/168122487-289aa6de-555c-4c46-9d06-5d57e7a36078.jpeg)
+![WhatsApp Image 2022-04-26 at 9 23 38 PM](https://user-images.githubusercontent.com/75235455/168122492-df35b912-16e0-4b60-8b98-6074730abc96.jpeg)
+![WhatsApp Image 2022-04-26 at 9 21 51 PM (4)](https://user-images.githubusercontent.com/75235455/168122495-a3098468-d962-4c30-950d-eb85ebe36b90.jpeg)
 
 
 
